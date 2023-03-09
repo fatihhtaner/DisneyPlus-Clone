@@ -1,14 +1,8 @@
 import React from 'react';
-import {
-  FlatList,
-  Text,
-  Image,
-  View,
-  TouchableWithoutFeedback,
-} from 'react-native';
+import {View} from 'react-native';
 import movies_data from '../../disneyPlusMoviesData.json';
 import styles from './HomeCategory.style';
-import {useNavigation} from '@react-navigation/native';
+import CategoryList from '../CategoryList/CategoryList';
 
 var recommends = movies_data.filter(obj => {
   return obj.type === 'recommend';
@@ -27,98 +21,14 @@ var originals = movies_data.filter(obj => {
 });
 
 function HomeCategory() {
-  const navigation = useNavigation();
-
   return (
     <View>
-      <View>
-        <Text style={styles.text}>Originals</Text>
-        <FlatList
-          data={originals}
-          renderItem={({item}) => (
-            <TouchableWithoutFeedback
-              onPress={() => navigation.navigate('DetailScreen', item)}>
-              <Image
-                style={styles.categories}
-                source={{uri: item.categoryImg}}
-              />
-            </TouchableWithoutFeedback>
-          )}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-        />
-      </View>
-      <View>
-        <Text style={styles.text}>Recommended For You</Text>
-        <FlatList
-          data={recommends}
-          renderItem={({item}) => (
-            <TouchableWithoutFeedback
-              onPress={() => navigation.navigate('DetailScreen', item)}>
-              <Image
-                style={styles.categories}
-                source={{uri: item.categoryImg}}
-              />
-            </TouchableWithoutFeedback>
-          )}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-        />
-      </View>
-      <View>
-        <Text style={styles.text}>News</Text>
-        <FlatList
-          data={news}
-          renderItem={({item}) => (
-            <TouchableWithoutFeedback
-              onPress={() => navigation.navigate('DetailScreen', item)}>
-              <Image
-                style={styles.categories}
-                source={{uri: item.categoryImg}}
-              />
-            </TouchableWithoutFeedback>
-          )}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-        />
-      </View>
-      <View>
-        <Text style={styles.text}>Trending</Text>
-        <FlatList
-          data={trendings}
-          renderItem={({item}) => (
-            <TouchableWithoutFeedback
-              onPress={() => navigation.navigate('DetailScreen', item)}>
-              <Image
-                style={styles.categories}
-                source={{uri: item.categoryImg}}
-              />
-            </TouchableWithoutFeedback>
-          )}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-        />
-      </View>
-      <View>
-        <Text style={styles.text}>Originals</Text>
-        <FlatList
-          data={originals}
-          renderItem={({item}) => (
-            <TouchableWithoutFeedback
-              onPress={() => navigation.navigate('DetailScreen', item)}>
-              <Image
-                style={styles.categories}
-                source={{uri: item.categoryImg}}
-              />
-            </TouchableWithoutFeedback>
-          )}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-        />
-      </View>
+      <CategoryList data={recommends} title={'Recommended for you'} />
+      <CategoryList data={news} title={'News'} />
+      <CategoryList data={trendings} title={'Trending'} />
+      <CategoryList data={originals} title={'Original'} />
     </View>
   );
 }
-
 
 export default HomeCategory;

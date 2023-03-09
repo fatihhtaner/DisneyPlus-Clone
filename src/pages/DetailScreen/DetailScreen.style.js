@@ -3,10 +3,14 @@ import {StyleSheet, Dimensions} from 'react-native';
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'black',
   },
   play_button: {
-    color: 'white',
+    backgroundColor: 'white',
+    borderRadius: 10,
+    fontSize: 15,
+  },
+  back_button: {
+    color: '#3f3f'
   },
   background_image: {
     width: Dimensions.get('window').width,

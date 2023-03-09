@@ -8,18 +8,20 @@
             "title": "Inside Out",
             "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/5C647DF3FFBFA343CFEA84AC715148F25F9E86F398B408010CC403E7654FB908/scale?width=1440&aspectRatio=1.78",
             "type": "recommend",
-            "categoryImg": "https://lumiere-a.akamaihd.net/v1/images/p_insideout_19751_af12286c.jpeg?region=0%2C0%2C540%2C810"
+            "categoryImg": "https://lumiere-a.akamaihd.net/v1/images/p_insideout_19751_af12286c.jpeg?region=0%2C0%2C540%2C810",
+            "studio": ["Pixar", "Disney"]
         },
-        {   
-            "id":"1",
-            "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4E9E81584305009D6385F6178D4B6930E97CD6EC4A3B53C818400DEF778FFA9A/scale?width=1440&aspectRatio=1.78&format=jpeg",
-            "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B983FF22BA64B6E19E0D3267280819B26758CFB765E8BED1099D11E320612953/scale?width=400&aspectRatio=1.78&format=jpeg",
-            "description": "Garfield is adopted by a greedy Lord with nefarious plans to open up his estate as a hunting ground.",
-            "subTitle": "2006 • 1h 19m • Family, Comedy, Kids",
-            "title": "A tail of two kitties",
-            "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/50B933E83609BEEFEDFA177A6D96DBFA7804C14F70A0B5AB314E892E65498ACF/scale?width=1440&aspectRatio=1.78",
-            "type": "new",
-            "categoryImg": "https://flxt.tmsimg.com/assets/p159746_p_v8_aj.jpg"
+        {
+          "id": "1",
+          "backgroundImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4E9E81584305009D6385F6178D4B6930E97CD6EC4A3B53C818400DEF778FFA9A/scale?width=1440&aspectRatio=1.78&format=jpeg",
+          "cardImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B983FF22BA64B6E19E0D3267280819B26758CFB765E8BED1099D11E320612953/scale?width=400&aspectRatio=1.78&format=jpeg",
+          "description": "Garfield is adopted by a greedy Lord with nefarious plans to open up his estate as a hunting ground.",
+          "subTitle": "2006 • 1h 19m • Family, Comedy, Kids",
+          "title": "A tail of two kitties",
+          "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/50B933E83609BEEFEDFA177A6D96DBFA7804C14F70A0B5AB314E892E65498ACF/scale?width=1440&aspectRatio=1.78",
+          "type": "new",
+          "categoryImg": "https://flxt.tmsimg.com/assets/p159746_p_v8_aj.jpg",
+          "studio": "Custom"
         },
         {
           "id": "2",
@@ -30,7 +32,8 @@
           "title": "Bao",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7AEE1F05D10FC37C873176AAA26F777FC1B71E7A6563F36C6B1B497CAB1CEC2/scale?width=1440&aspectRatio=1.78",
           "type": "recommend",
-          "categoryImg": "https://m.media-amazon.com/images/M/MV5BOGVmNDcwNGItYTQ3Ny00NjA5LTllMTMtZjUyZWYzMjJjMjVmXkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_FMjpg_UX1000_.jpg"
+          "categoryImg": "https://m.media-amazon.com/images/M/MV5BOGVmNDcwNGItYTQ3Ny00NjA5LTllMTMtZjUyZWYzMjJjMjVmXkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_FMjpg_UX1000_.jpg",
+          "studio": ["Pixar", "Disney"]
         },
         {
           "id": "3",
@@ -41,7 +44,8 @@
           "title": "Tangled",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F70235E3463A6F246EB462ED5379F9D41D6318E80098BD40900E7AFC1C7D932D/scale?width=1440&aspectRatio=1.78",
           "type": "trending",
-          "categoryImg": "https://m.media-amazon.com/images/M/MV5BOGVmNDcwNGItYTQ3Ny00NjA5LTllMTMtZjUyZWYzMjJjMjVmXkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_FMjpg_UX1000_.jpg"
+          "categoryImg": "https://m.media-amazon.com/images/M/MV5BOGVmNDcwNGItYTQ3Ny00NjA5LTllMTMtZjUyZWYzMjJjMjVmXkEyXkFqcGdeQXVyNzMwOTY2NTI@._V1_FMjpg_UX1000_.jpg",
+          "studio": "Disney"
         },
         {
           "id": "4",
@@ -52,7 +56,8 @@
           "title": "Soul",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E837DDE901CD036DD87A00F2D63E2F2458FAA798E62BE91F973AECCEA313A67E/scale?width=1440&aspectRatio=1.78",
           "type": "original",
-          "categoryImg": "https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_.jpg"
+          "categoryImg": "https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_.jpg",
+          "studio": ["Disney", "Pixar"]
         },
         {
           "id": "5",
@@ -63,7 +68,8 @@
           "title": "Moana",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9562874BAB22B22A698368819B9EBF30FEB0291543552EB2416A5A61A73F63F4/scale?width=1440&aspectRatio=1.78",
           "type": "trending",
-          "categoryImg": "https://static.wikia.nocookie.net/disney/images/7/76/Moana_official_poster.jpg/revision/latest?cb=20160912174807"
+          "categoryImg": "https://static.wikia.nocookie.net/disney/images/7/76/Moana_official_poster.jpg/revision/latest?cb=20160912174807",
+          "studio": "Disney"
         },
         {
           "id": "6",
@@ -74,7 +80,8 @@
           "title": "Incredibles 2",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/2041CE26663867FC4EF20377B8625BD629E619452E23BCDB1AB259DD475C2EA1/scale?width=1440&aspectRatio=1.78",
           "type": "recommend",
-          "categoryImg": "https://m.media-amazon.com/images/M/MV5BMTEzNzY0OTg0NTdeQTJeQWpwZ15BbWU4MDU3OTg3MjUz._V1_FMjpg_UX1000_.jpg"
+          "categoryImg": "https://m.media-amazon.com/images/M/MV5BMTEzNzY0OTg0NTdeQTJeQWpwZ15BbWU4MDU3OTg3MjUz._V1_FMjpg_UX1000_.jpg",
+          "studio": ["Disney", "Pixar"]
         },
         {
           "id": "7",
@@ -85,7 +92,8 @@
           "title": "Assembled",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/37D80C5D1AB0BA65C63588311EC60A07342F60F91D402C28B8E1137AF6A30549/scale?width=1440&aspectRatio=1.78",
           "type": "original",
-          "categoryImg": "https://lumiere-a.akamaihd.net/v1/images/p_marvelstudiosassembled_whatif_v2_20962_17d806fa.jpeg?region=0,0,540,810"
+          "categoryImg": "https://lumiere-a.akamaihd.net/v1/images/p_marvelstudiosassembled_whatif_v2_20962_17d806fa.jpeg?region=0,0,540,810",
+          "studio": "Marvel"
         },
         {
           "id": "8",
@@ -96,7 +104,8 @@
           "title": "Burrow",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DD8BBA864E290FBC03A244A488FFC8DC8365FBF2F95A122B1D57BF3772D717FD/scale?width=1440&aspectRatio=1.78",
           "type": "original",
-          "categoryImg": "https://www.themoviedb.org/t/p/original/cQEZ8FvO4kdq89UvJBpeMt2vuby.jpg"
+          "categoryImg": "https://www.themoviedb.org/t/p/original/cQEZ8FvO4kdq89UvJBpeMt2vuby.jpg",
+          "studio": "Custom"
         },
         {
           "id": "9",
@@ -107,7 +116,8 @@
           "title": "The Simpsons",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/47A6FB38D95B3A5EF5583C9EED0B698ED2992CBA4AC7222DD3269DC92DFA03A6/scale?width=1440&aspectRatio=1.78",
           "type": "trending",
-          "categoryImg": "https://m.media-amazon.com/images/M/MV5BYjFkMTlkYWUtZWFhNy00M2FmLThiOTYtYTRiYjVlZWYxNmJkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg"
+          "categoryImg": "https://m.media-amazon.com/images/M/MV5BYjFkMTlkYWUtZWFhNy00M2FmLThiOTYtYTRiYjVlZWYxNmJkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg",
+          "studio": "Custom"
         },
         {
           "id": "10",
@@ -118,7 +128,8 @@
           "title": "Legends",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DDFF0FDF457E092EE53149CE7DB5BD14CB97E27B92D2D087E7C687B4E3073DE2/scale?width=1440&aspectRatio=1.78",
           "type": "original",
-          "categoryImg": "https://m.media-amazon.com/images/M/MV5BMzdiNGVlZGYtMGY1Ni00OGU1LTlmYzEtZDBjYjk3OGM3YTNkXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_FMjpg_UX1000_.jpg"
+          "categoryImg": "https://m.media-amazon.com/images/M/MV5BMzdiNGVlZGYtMGY1Ni00OGU1LTlmYzEtZDBjYjk3OGM3YTNkXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_FMjpg_UX1000_.jpg",
+          "studio": "Marvel"
         },
         {
           "id": "11",
@@ -129,7 +140,8 @@
           "title": "Raya",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E7D8EFFDD30B2A0E205DDD9929207439B21E7595709769F2A23C50457664FFB2/scale?width=1440&aspectRatio=1.78",
           "type": "new",
-          "categoryImg": "https://m.media-amazon.com/images/M/MV5BMzdiNGVlZGYtMGY1Ni00OGU1LTlmYzEtZDBjYjk3OGM3YTNkXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_FMjpg_UX1000_.jpg"
+          "categoryImg": "https://m.media-amazon.com/images/M/MV5BMzdiNGVlZGYtMGY1Ni00OGU1LTlmYzEtZDBjYjk3OGM3YTNkXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_FMjpg_UX1000_.jpg",
+          "studio": "Disney"
         },
         {
           "id": "12",
@@ -140,7 +152,8 @@
           "title": "Auntie EDNA",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A31BE6502DC7A3A01DAF58DF7E91AB6FF598A078C8FA88A1DB2D7B7E25439464/scale?width=1440&aspectRatio=1.78",
           "type": "recommend",
-          "categoryImg": "https://m.media-amazon.com/images/M/MV5BNDk4ZjFhOTQtNWQzMi00MDYxLTkzMmEtZDI3YzRhNGUwM2Q4XkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_FMjpg_UX1000_.jpg"
+          "categoryImg": "https://m.media-amazon.com/images/M/MV5BNDk4ZjFhOTQtNWQzMi00MDYxLTkzMmEtZDI3YzRhNGUwM2Q4XkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_FMjpg_UX1000_.jpg",
+          "studio": "Custom"
         },
         {
           "id": "13",
@@ -151,7 +164,8 @@
           "title": "Mickey mouse",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4FF3FCD567F0263430DFC33B9489CE2799AE33B50AD553DE65F03B3EA2E19828/scale?width=1440&aspectRatio=1.78",
           "type": "trending",
-          "categoryImg": "https://m.media-amazon.com/images/M/MV5BMTdiNDIyMGEtNWJjMi00ODlhLWJhM2EtYjJjMjFlMjNhNDEwXkEyXkFqcGdeQXVyODg3NDc1OTE@._V1_FMjpg_UX1000_.jpg"
+          "categoryImg": "https://m.media-amazon.com/images/M/MV5BMTdiNDIyMGEtNWJjMi00ODlhLWJhM2EtYjJjMjFlMjNhNDEwXkEyXkFqcGdeQXVyODg3NDc1OTE@._V1_FMjpg_UX1000_.jpg",
+          "studio": "Disney"
         },
         {
           "id": "14",
@@ -162,7 +176,8 @@
           "title": "The falcon and the winter soldier",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4A67A42FB16607DAE7E22266D3F00181965178ED1884047C2D982EE7D89D3554/scale?width=1440&aspectRatio=1.78",
           "type": "new",
-          "categoryImg": "https://m.media-amazon.com/images/M/MV5BODNiODVmYjItM2MyMC00ZWQyLTgyMGYtNzJjMmVmZTY2OTJjXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_FMjpg_UX1000_.jpg"
+          "categoryImg": "https://m.media-amazon.com/images/M/MV5BODNiODVmYjItM2MyMC00ZWQyLTgyMGYtNzJjMmVmZTY2OTJjXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_FMjpg_UX1000_.jpg",
+          "studio": "Marvel"
         },
         {
           "id": "15",
@@ -173,6 +188,7 @@
           "title": "My music story",
           "titleImg": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/97BB36F8B9FC053F561894DD7B1C42C4FD20E63560F481CBCB3B9D3600CFCA3B/scale?width=1440&aspectRatio=1.78",
           "type": "new",
-          "categoryImg": "https://m.media-amazon.com/images/M/MV5BYjZiOTg5NzUtOTViOC00MmYxLThkNjYtMmIyMGYyMjRhNTAzXkEyXkFqcGdeQXVyNzEzNjU1NDg@._V1_UY1200_CR85,0,630,1200_AL_.jpg"
+          "categoryImg": "https://m.media-amazon.com/images/M/MV5BYjZiOTg5NzUtOTViOC00MmYxLThkNjYtMmIyMGYyMjRhNTAzXkEyXkFqcGdeQXVyNzEzNjU1NDg@._V1_UY1200_CR85,0,630,1200_AL_.jpg",
+          "studio": "Disney"
         }   
 ]
