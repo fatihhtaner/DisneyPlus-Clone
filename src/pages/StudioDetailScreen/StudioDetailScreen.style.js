@@ -7,6 +7,17 @@ export default StyleSheet.create({
   imageBackground: {
     flex: 1,
   },
+  category_container: {
+    position: 'absolute',
+    bottom: 10,
+    left: 0,
+  },
+  title: {
+    color: '#a8a7a2',
+    marginLeft: 12,
+    marginBottom: 5,
+    fontSize: 16,
+  },
   logo_container: {
     flex: 1,
     flexDirection: 'row',

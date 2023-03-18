@@ -17,6 +17,5 @@ export default StyleSheet.create({
   },
   studios_container: {
     flex: 1,
-    backgroundColor: 'red',
   },
 });
