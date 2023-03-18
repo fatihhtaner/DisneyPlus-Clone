@@ -1,10 +1,11 @@
 import React from 'react';
 import {
   SafeAreaView,
+  View,
   Image,
   FlatList,
   TouchableWithoutFeedback,
-  ImageBackground
+  ImageBackground,
 } from 'react-native';
 import styles from './StudioDetailScreen.style';
 import {useRoute} from '@react-navigation/native';
@@ -13,12 +14,14 @@ import {useNavigation} from '@react-navigation/native';
 function StudioDetailScreen() {
   const route = useRoute();
   const navigation = useNavigation();
-  console.log(route.params);
+  console.log(route.params.background);
   return (
-    <SafeAreaView style={styles.container}>
-      <ImageBackground source={{uri: route.params}}>
+    <View style={styles.container}>
+      <ImageBackground
+        source={route.params.background}
+        style={styles.imageBackground}>
         <FlatList
-          data={route.params}
+          data={route.params.data}
           renderItem={({item}) => (
             <TouchableWithoutFeedback
               onPress={() => navigation.navigate('DetailScreen', item)}>
@@ -32,7 +35,7 @@ function StudioDetailScreen() {
           showsHorizontalScrollIndicator={false}
         />
       </ImageBackground>
-    </SafeAreaView>
+    </View>
   );
 }
 

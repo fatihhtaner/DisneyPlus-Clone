@@ -4,6 +4,9 @@ export default StyleSheet.create({
   container: {
     flex: 1,
   },
+  imageBackground: {
+    flex: 1,
+  },
   logo_container: {
     flex: 1,
     flexDirection: 'row',
