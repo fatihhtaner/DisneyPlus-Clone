@@ -1,7 +1,9 @@
 import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
-  button: {
+  search: {
     backgroundColor: 'white',
+    margin: 10,
+    marginTop: 30,
   },
 });

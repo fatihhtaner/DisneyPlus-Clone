@@ -2,12 +2,13 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {Image, Dimensions} from 'react-native';
 
-import HomeStack from '../Router/HomeStack/HomeStack'
+import HomeStack from '../Router/HomeStack/HomeStack';
 import SearchScreen from '../pages/SearchScreen/SearchScreen';
 import DownloadScreen from '../pages/DownloadScreen/DownloadScreen';
 import ProfileScreen from '../pages/ProfileScreen/ProfileScreen';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 const Tab = createBottomTabNavigator();
 
@@ -16,7 +17,7 @@ function Router() {
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={{
-          showLabel: false,
+          tabBarShowLabel: false,
           headerShown: false,
           tabBarStyle: {
             backgroundColor: '#201f24',
@@ -27,22 +28,47 @@ function Router() {
           component={HomeStack}
           options={{
             headerShown: false,
+            tabBarIcon: () => (
+              <Icon name="ios-home" color={'#a8a7a2'} size={25} />
+            ),
           }}
         />
         <Tab.Screen
           name="Search"
           component={SearchScreen}
-          options={{headerShown: false}}
+          options={{
+            headerShown: false,
+            tabBarIcon: () => (
+              <Icon name="ios-search" color={'#a8a7a2'} size={25} />
+            ),
+          }}
         />
         <Tab.Screen
           name="Download"
           component={DownloadScreen}
-          options={{headerShown: false}}
+          options={{
+            headerShown: false,
+            tabBarIcon: () => (
+              <Icon name="ios-download" color={'#a8a7a2'} size={25} />
+            ),
+          }}
         />
         <Tab.Screen
           name="Profile"
           component={ProfileScreen}
-          options={{headerShown: false}}
+          options={{
+            headerShown: false,
+            tabBarIcon: () => (
+              <Image
+                source={require('../assets/images/profiles/darth-vader.png')}
+                style={{
+                  resizeMode: 'center',
+                  width: Dimensions.get('window').width / 12,
+                  height: Dimensions.get('window').height / 20,
+                }}
+              />
+            ),
+          }}
         />
       </Tab.Navigator>
     </NavigationContainer>
