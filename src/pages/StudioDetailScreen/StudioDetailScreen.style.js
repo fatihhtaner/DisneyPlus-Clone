@@ -9,8 +9,10 @@ export default StyleSheet.create({
   },
   category_container: {
     position: 'absolute',
-    bottom: 10,
-    left: 0,
+    justifyContent: 'flex-end',
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height / 4,
+    bottom: 0,
   },
   title: {
     color: '#a8a7a2',
@@ -26,11 +28,11 @@ export default StyleSheet.create({
     marginRight: 10,
   },
   categories: {
-    width: Dimensions.get('window').width / 3,
+    width: Dimensions.get('window').width / 3.4,
     height: Dimensions.get('window').height / 5,
-    resizeMode: 'contain',
+    resizeMode: 'center',
     marginLeft: 10,
-    margin: 5,
+    margin: 2,
     borderRadius: 5,
   },
 });

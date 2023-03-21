@@ -5,7 +5,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {Image, Dimensions} from 'react-native';
 
 import HomeStack from '../Router/HomeStack/HomeStack';
-import SearchScreen from '../pages/SearchScreen/SearchScreen';
+import SearchStack from '../Router/SearchStack/SearchStack'
 import DownloadScreen from '../pages/DownloadScreen/DownloadScreen';
 import ProfileScreen from '../pages/ProfileScreen/ProfileScreen';
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -35,7 +35,7 @@ function Router() {
         />
         <Tab.Screen
           name="Search"
-          component={SearchScreen}
+          component={SearchStack}
           options={{
             headerShown: false,
             tabBarIcon: () => (

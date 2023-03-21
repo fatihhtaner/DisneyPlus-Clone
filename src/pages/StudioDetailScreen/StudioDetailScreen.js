@@ -24,6 +24,8 @@ function StudioDetailScreen() {
           <Text style={styles.title}>Featured</Text>
           <FlatList
             data={route.params.data}
+            numColumns={3}
+            key={3}
             renderItem={({item}) => (
               <TouchableWithoutFeedback
                 onPress={() => navigation.navigate('DetailScreen', item)}>
@@ -33,7 +35,6 @@ function StudioDetailScreen() {
                 />
               </TouchableWithoutFeedback>
             )}
-            horizontal
             showsHorizontalScrollIndicator={false}
           />
         </View>

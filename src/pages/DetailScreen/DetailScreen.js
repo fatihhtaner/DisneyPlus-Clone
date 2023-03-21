@@ -3,6 +3,7 @@ import {SafeAreaView, Text, Image, TouchableOpacity, View} from 'react-native';
 import {useRoute} from '@react-navigation/native';
 import LinearGradient from 'react-native-linear-gradient';
 import styles from './DetailScreen.style';
+import BackButton from '../../components/Buttons/BackButton/BackButton'
 
 function Detail() {
   const route = useRoute();
@@ -13,6 +14,7 @@ function Detail() {
         colors={['#0b0d15', '#292c3c', '#292c3c', '#0b0d15']}
         style={{flex: 1}}
         start={{x: 0, y: 0}}>
+        <BackButton />
         <Image
           source={{uri: route.params.backgroundImg}}
           style={styles.background_image}

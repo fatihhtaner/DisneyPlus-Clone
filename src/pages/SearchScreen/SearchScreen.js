@@ -16,12 +16,16 @@ function SearchScreen(props) {
 
       return currentTitle.indexOf(searchedText) > -1;
     });
-
+    if (text.length == 0){
+      setShow(true)
+    }
     setList(filteredList);
   };
 
+
   const [show, setShow] = useState(true);
   const toggleShow = () => setShow(false);
+
 
   return (
     <SafeAreaView style={styles.container}>
