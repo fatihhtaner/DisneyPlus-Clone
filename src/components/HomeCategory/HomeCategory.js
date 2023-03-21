@@ -1,6 +1,6 @@
 import React from 'react';
 import {View} from 'react-native';
-import movies_data from '../../disneyPlusMoviesData.json';
+import movies_data from '../../../data/disneyPlusMoviesData.json';
 import styles from './HomeCategory.style';
 import CategoryList from '../CategoryList/CategoryList';
 

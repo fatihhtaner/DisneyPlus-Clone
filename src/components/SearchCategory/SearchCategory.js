@@ -2,7 +2,7 @@ import React from 'react';
 import {View} from 'react-native';
 import styles from './SearchCategory.style';
 import SearchBox from '../SearchBox/SearchBox';
-import movies_data from '../../disneyPlusMoviesData.json'
+import movies_data from '../../../data/disneyPlusMoviesData.json'
 
 var movie = movies_data.filter(obj => {
   return obj.category === 'Movie';

@@ -2,7 +2,7 @@ import React from 'react';
 import {View, FlatList, Image, TouchableWithoutFeedback} from 'react-native';
 
 import styles from './SlideShow.style'
-import movies_data from '../../disneyPlusMoviesData.json';
+import movies_data from '../../../data/disneyPlusMoviesData.json';
 import {useNavigation} from '@react-navigation/native';
 
 function SlideShow({DetailScreen}) {

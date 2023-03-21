@@ -3,7 +3,7 @@ import {SafeAreaView, TextInput} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import styles from './SearchScreen.style';
 import ShowExplore from '../../components/ShowExplore/ShowExplore';
-import movie_data from '../../disneyPlusMoviesData.json';
+import movie_data from '../../../data/disneyPlusMoviesData.json';
 import MovieData from '../../components/MovieData/MovieData';
 
 function SearchScreen(props) {

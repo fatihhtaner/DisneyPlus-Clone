@@ -1,18 +1,10 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  Text,
-  FlatList,
-  View,
-  Image,
-  ScrollView,
-  TouchableOpacity
-} from 'react-native';
-import HomeCategory from '../../components/HomeCategory'
-import styles from './HomeScreen.style'
-import LinearGradient from 'react-native-linear-gradient'
-import SlideShow from '../../components/SlideShow/SlideShow'
-import Studios from '../../components/Studios/Studios'
+import {SafeAreaView, View, Image, ScrollView} from 'react-native';
+import HomeCategory from '../../components/HomeCategory';
+import styles from './HomeScreen.style';
+import LinearGradient from 'react-native-linear-gradient';
+import SlideShow from '../../components/SlideShow/SlideShow';
+import Studios from '../../components/Studios/Studios';
 
 function HomeScreen() {
   return (

@@ -7,7 +7,7 @@ import ng_logo from '../../assets/images/logo/national-geographic.png';
 import pixar_logo from '../../assets/images/logo/pixar.png';
 import star_wars_logo from '../../assets/images/logo/star-wars.png';
 import StudioBox from '../StudioBox/StudioBox';
-import movies_data from '../../disneyPlusMoviesData.json';
+import movies_data from '../../../data/disneyPlusMoviesData.json';
 import disney_background from '../../assets/images/background/disney.jpg';
 import pixar_background from '../../assets/images/background/pixar.png';
 import marvel_background from '../../assets/images/background/marvel.jpg';
